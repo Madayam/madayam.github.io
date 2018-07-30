@@ -1,0 +1,86 @@
+
+body{
+    font-family: "Do Hyeon";
+}
+/* Navbar */
+.navbar{
+    width: 100%;
+    position: fixed;
+    border-bottom-style: solid;
+    border-bottom-color: black;
+    color: #e2e2e2;
+    z-index: 1;
+}
+
+#navbarNavDropdown{
+    text-align: center;
+}
+
+.dropdown-menu{
+    text-align: center;
+
+}
+/* Landing Image */
+
+img{
+    width: 100%;
+    height: auto;
+    padding-top: 50px;
+    border-bottom-style: solid;
+    border-bottom-color: black;
+
+}
+/* Home Content */
+
+.c{
+    color: rgb(12, 12, 12);
+    padding-top: 20px;
+    text-align: center;
+    text-shadow: 2px 2px 6px grey;
+
+}
+
+ul{
+    list-style-type: none;
+}
+
+.c li{
+    margin:50px 30px;
+    text-align: center;
+    min-width: 100px;
+
+}
+
+
+
+.fa{
+    text-shadow: 4px 4px 12px grey;
+    margin-bottom: 10px;
+
+}
+
+
+
+
+@media(min-width:800px){
+ul{
+    display:flex;
+    text-align: center;
+}
+.c{
+    justify-content: space-around;
+}
+
+}
+
+@media(min-width:1300px){
+    .c li{
+        padding-left: 70px;
+        padding-right: 70px;
+
+        }
+    img{
+        height: 70vh;
+
+    }
+    }
